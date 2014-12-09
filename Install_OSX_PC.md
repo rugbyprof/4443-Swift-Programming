@@ -67,6 +67,7 @@ __STEP 4: Boot into USB Drive__
 2. Press the hotkey to choose boot device (usually F12 or F8)
 3. Choose __USB-HDD__
 4. At the Chimera Boot Screen, choose __USB__ and hit __Enter__
+
 If you can’t get to the OSX installer, try typing in __-x__ at the Chimera Boot  screen. You can also type some other boot flags such as: __GraphicsEnabler=Yes, PCIRootUID=1, maxmem=4096, maxmem=8192__, and __npci=0x2000__ individually or in combination in order to solve boot issues.
 
 __STEP 5: Install OSX Yosemite__
