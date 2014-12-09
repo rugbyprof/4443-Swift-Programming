@@ -1,17 +1,17 @@
 ## How To Install OSX Yosemite On Your PC
-____Posted on October 19, 2014 by Waj Syed___
+_Posted on October 19, 2014 by Waj Syed_
 
-___Source: http://www.instafuze.com/?p=587___
+_Source: http://www.instafuze.com/?p=587_
 
 This guide will give a complete step by step on how to install OS 10.10 Yosemite on any PC that has a Intel base processor.
 
-___What You Need:___
+_What You Need:_
 1. Built PC With Intel CPU
 2. Any Computer Running Mac OSX Snow Leopard 10.6.6 or later.
 3. USB Stick 8Gb or Larger
 
 
-___What you need to Download:___ Click for the link
+_What you need to Download:_ Click for the link
 
 [Yosemite](https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewSoftware?id=915041082&mt=12)
 
@@ -33,7 +33,7 @@ The cool thing is that the whole OS is free for anyone who has a Apple ID and ac
 2. Log into your Apple ID
 3. Download OS X Yosemite (its a big file >5GB so relax)
 
-___STEP 2:___ Making a Bootable USB Drive
+_STEP 2:_ Making a Bootable USB Drive
 
 1. Insert your USB drive the is 8GB or Larger
 2. Open /Applications/Utilities/Disk Utility
@@ -62,19 +62,22 @@ ___STEP 2:___ Making a Bootable USB Drive
 16. If using a laptop, choose Laptop Support
 17. Click Continue
 
+![](http://www.tonymacx86.com/attachments/106476d1412962807-ub-4.png.html)
 
 18. Enter your password and click Install
 
+![](http://www.tonymacx86.com/attachments/106477d1412962924-ub-6.png.html)
 
 UniBeast will now create the bootable USB drive. Once completed put your the Multibeast folder in the USB drive.
 
-STEP 4: Boot into USB Drive
+_STEP 4:__Boot into USB Drive
 
-Turn on the computer
-Press the hotkey to choose boot device (usually F12 or F8)
-Choose USB-HDD
-At the Chimera Boot Screen, choose USB and hit Enter
-If you can’t get to the OSX installer, try typing in -x at the Chimera Boot  screen. You can also type some other boot flags such as: GraphicsEnabler=Yes, PCIRootUID=1, maxmem=4096, maxmem=8192, and npci=0x2000 individually or in combination in order to solve boot issues.
+1. Turn on the computer
+2. Press the hotkey to choose boot device (usually F12 or F8)
+3. Choose _USB-HDD_
+4. At the Chimera Boot Screen, choose _USB_ and hit _Enter_
+
+If you can’t get to the OSX installer, try typing in _-x_ at the Chimera Boot  screen. You can also type some other boot flags such as: GraphicsEnabler=Yes, PCIRootUID=1, maxmem=4096, maxmem=8192, and npci=0x2000 individually or in combination in order to solve boot issues.
 
  STEP 5: Install OSX Yosemite
 
