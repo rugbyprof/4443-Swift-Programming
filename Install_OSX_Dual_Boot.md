@@ -1,4 +1,4 @@
-###How To DualBoot OSX & Windows
+##How To DualBoot OSX & Windows
 
 ___Posted on November 4, 2014 by [Waj Syed](http://www.instafuze.com/)___
 
