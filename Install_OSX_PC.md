@@ -54,9 +54,7 @@ __STEP 2__: Making a Bootable USB Drive
 15. If using a 5 or 6 Series system with AWARD BIOS choose __Legacy USB Support__
 16. If using a laptop, choose __Laptop Support__
 17. Click __Continue__
-
 ![](http://www.tonymacx86.com/attachments/106476d1412962807-ub-4.png.html)
-
 18. Enter your password and click __Install__
 
 ![](http://www.tonymacx86.com/attachments/106477d1412962924-ub-6.png.html)
