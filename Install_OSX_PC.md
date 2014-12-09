@@ -25,14 +25,14 @@ Inorder to download Unibeast, Multibeast  and DSDT files you need to have an acc
 
 Make your you have Unibeast and Multibeast downloaded and unziped on to your desktop.
 
-__STEP 1:__ Download OSX 10.10 Yosemite
+__STEP 1: Download OSX 10.10 Yosemite__
 The cool thing is that the whole OS is free for anyone who has a Apple ID and acess to a machine running 10.6.8 Snow Leopard or later.
 
 1. Open Mac App Store
 2. Log into your Apple ID
 3. Download OS X Yosemite (its a big file >5GB so relax)
 
-__STEP 2__: Making a Bootable USB Drive
+__STEP 2: Making a Bootable USB Drive__
 
 1. Insert your USB drive the is 8GB or Larger
 2. Open /Applications/Utilities/__Disk Utility__
@@ -61,7 +61,7 @@ __STEP 2__: Making a Bootable USB Drive
 UniBeast will now create the bootable USB drive. Once completed put your the Multibeast folder in the USB drive.
 
 
-__STEP 4:__Boot into USB Drive
+__STEP 4: Boot into USB Drive__
 
 1. Turn on the computer
 2. Press the hotkey to choose boot device (usually F12 or F8)
@@ -69,7 +69,8 @@ __STEP 4:__Boot into USB Drive
 4. At the Chimera Boot Screen, choose __USB__ and hit __Enter__
 If you can’t get to the OSX installer, try typing in __-x__ at the Chimera Boot  screen. You can also type some other boot flags such as: __GraphicsEnabler=Yes, PCIRootUID=1, maxmem=4096, maxmem=8192__, and __npci=0x2000__ individually or in combination in order to solve boot issues.
 
-__STEP 5:__ Install OSX Yosemite
+__STEP 5: Install OSX Yosemite__
+
 Once you get to the installer:
 1. In the top menu bar choose __Utilities__, and open __Disk Utility__
 2. Highlight your target hard drive for the Yosemite installation in left column.
@@ -87,7 +88,8 @@ Once you get to the installer:
 14. At the Chimera Boot Screen, choose your new __OSX__ installation.
 15. Complete the OSX initial setup, date, user, password, etc.
 
-__STEP 6:__ Finalization With MultiBeast 
+__STEP 6: Finalization With MultiBeast__
+
 1. Open Multibeast
 2. if this is a new install go to the __Quick Start__ tab & choose __EasyBeast, UserDSDT__, or __DSDT-Free__.
 3. Choose your audio drivers, enable trim if you are using an SSD, select your networking driver, etc. here are my settings based upon my motherboard (Gigabyte GA-Z77-D3H) Capture2
