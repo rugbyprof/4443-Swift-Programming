@@ -1,7 +1,8 @@
 ###How To DualBoot OSX & Windows
 
-Posted on November 4, 2014 by Waj Syed
-Source: http://www.instafuze.com/?p=619
+___Posted on November 4, 2014 by [Waj Syed](http://www.instafuze.com/)___
+
+___Source: http://www.instafuze.com/?p=619___
 
 ![](http://www.instafuze.com/wp-content/uploads/2014/11/DUALBOOT-THUMB.jpg)
 
