@@ -1,49 +1,51 @@
-### How To Install OSX Yosemite On Your PC
+## How To Install OSX Yosemite On Your PC
 ____Posted on October 19, 2014 by Waj Syed___
-Source: http://www.instafuze.com/?p=587
+
+___Source: http://www.instafuze.com/?p=587___
 
 This guide will give a complete step by step on how to install OS 10.10 Yosemite on any PC that has a Intel base processor.
 
- What You Need:
+___What You Need:___
 1. Built PC With Intel CPU
 2. Any Computer Running Mac OSX Snow Leopard 10.6.6 or later.
 3. USB Stick 8Gb or Larger
 
 
-What you need to Download: Click for the link
+___What you need to Download:___ Click for the link
 
-Yosemite
+[Yosemite](https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewSoftware?id=915041082&mt=12)
 
-UniBeast
+[UniBeast](http://www.tonymacx86.com/downloads.php?do=file&id=244)
 
-Multibeast
+[Multibeast](http://www.tonymacx86.com/downloads.php?do=file&id=242)
 
-DSDT (if needed)
+[DSDT](http://www.tonymacx86.com/11-dsdt-database.html) (if needed)
 
 Inorder to download Unibeast, Multibeast  and DSDT files you need to have an account on tonymacx86.  If you don’t have an account then you can create an here.http://www.tonymacx86.com/register.php.
 
 Make your you have Unibeast and Multibeast downloaded and unziped on to your desktop.
 
-STEP 1: Download OSX 10.10 Yosemite
+___STEP 1:___ Download OSX 10.10 Yosemite
 
 The cool thing is that the whole OS is free for anyone who has a Apple ID and acess to a machine running 10.6.8 Snow Leopard or later.
 
-Open Mac App Store
-Log into your Apple ID
-Download OS X Yosemite (its a big file >5GB so relax)
-STEP 2: Making a Bootable USB Drive
+1. Open Mac App Store
+2. Log into your Apple ID
+3. Download OS X Yosemite (its a big file >5GB so relax)
 
-Insert your USB drive the is 8GB or Larger
-Open /Applications/Utilities/Disk Utility
-Select your USB drive
-Go to the Partition Tab
-Click Current and choose 1 Partition 
-Click Options and Choose Master Boot Record
-Under Name: type USB
-Under Format: choose Mac OS Extended (Journaled)
-Click Apply then Partition
-Open UniBeast from your desktop
-Click Continue, Continue, Continue, Agree
+___STEP 2:___ Making a Bootable USB Drive
+
+1. Insert your USB drive the is 8GB or Larger
+1. Open /Applications/Utilities/Disk Utility
+1. Select your USB drive
+1. Go to the Partition Tab
+1. Click Current and choose 1 Partition 
+1. Click Options and Choose Master Boot Record
+1. Under Name: type USB
+1. Under Format: choose Mac OS Extended (Journaled)
+1. Click Apply then Partition
+1. Open UniBeast from your desktop
+1. Click Continue, Continue, Continue, Agree
 
 12. At Destination Select, choose USB and click Continue
 
