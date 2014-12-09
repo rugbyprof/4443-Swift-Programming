@@ -28,31 +28,32 @@ What you need to Download: Click for the link
 
 Inorder to download Unibeast, Multibeast  and DSDT files you need to have an account on tonymacx86.  If you don’t have an account then you can create an here.http://www.tonymacx86.com/register.php.
 
-#### Step 1: Create OSX Unibeast USB and Windows USB  
+__Step 1: Create OSX Unibeast USB and Windows USB__
 
 1. Make your unibeast usb drive, see step 2 on my full hackintosh guide, what means downloading OSX yosemite from app store, unibeast and multibeast. and run the unibeast utility to make your osx installer. when your done copy multibeast folder to usb
-2. If you have a copy of windows on a physical disc then skip the following step, to make your Bootable windows USB you want to Put a windows iso or disc image to your USB. Im just downloading the windows 10 preview from Microsoft and using the windows USB installer utility.
+2. If you have a copy of windows on a physical disc then skip the following step, to make your Bootable windows USB you want to Put a windows iso or disc image to your USB. Im just downloading the [windows 10](http://windows.microsoft.com/en-us/windows/preview) preview from Microsoft and using the windows USB installer utility.
+
 Now you should have one usb with osx and another usb with windows.
 
-#### Step 2: Boot into OSX installer
+__Step 2: Boot into OSX installer__
 
-1. turn on pc that you’re going to be installing everything on to and mash delete to enter BIO.
-2. Make sure sata settings are set to AHCI, instead of Raid or IDE. save and exit BIO by hitting F10.
-3. As your pc resets start pressing F8 or F12 to enter into boot menu.
+1. turn on pc that you’re going to be installing everything on to and mash __delete__ to enter BIO.
+2. Make sure sata settings are set to __AHCI__, instead of Raid or IDE. save and exit BIO by hitting __F10__.
+3. As your pc resets start pressing __F8__ or __F12__ to enter into boot menu.
 4. Select the USB drive that has Unibeast on it In my case that usb drive is called “USB”.
-5. At the Chimera Boot Screen, choose USB (with the unibeast icon) and hit Enter
+5. At the Chimera Boot Screen, choose __USB__ (with the unibeast icon) and hit __Enter__
 
 if you can’t get to the OSX install use these boot flags at the chimera boot screen.
 
-#### Step 3: Partition Drive & Install OSX
+__Step 3: Partition Drive & Install OSX__
 
 1. Select your language
 2. Next click utilities at the top and select disk utilities
 3. Select the drive that were going to be installing everything on to.
-4. Go to the partition tab , set the partition layout to 2 Partitions.
-5. Click on Options and make sure it is set to GUID Partition Table.
-6. Name the Top Partition “Macintosh” and change the format to Mac OS Extended Journaled. Name the bottom Partition “Windows” and set the format to MS-DOS FAT. Then Click Apply. Once complete exit disk utility.
-7. Go through the OSX installer & Select the “Macintosh” partition to install OSX on to and click continue. Once completed your computer will reset.
+4. Go to the partition tab , set the partition layout to __2 Partitions__.
+5. Click on Options and make sure it is set to __GUID Partition Table__.
+6. Name the Top Partition “__Macintosh__” and change the format to __Mac OS Extended__ Journaled. Name the bottom Partition “__Windows__” and set the format to __MS-DOS FAT__. Then Click __Apply__. Once complete exit disk utility.
+7. Go through the OSX installer & Select the “__Macintosh__” partition to install OSX on to and click continue. Once completed your computer will reset.
 8. Boot into unibeast USB from boot menu again, and when you get to the chimera bootloader select the new OSX install named “Macintosh”.
 9. Complete install setup and use multibeast to install the drivers for your audio, networking etc, don’t install chimera bootloader yet. Once multibeast is done shutdown your computer.
 
@@ -60,10 +61,10 @@ if you can’t get to the OSX install use these boot flags at the chimera boot s
 #### Step 4: Install Windows
 
 1. Take out the osx USB and insert your windows USB or disc. Turn on your pc.
-2. Mash F8 or F12 select the windows usb or disk.
+2. Mash __F8__ or __F12__ select the windows usb or disk.
 3. Once you’re at the windows installer, select your language and click next, then install now, agree to terms.
-4. Select Custom (advanced)
-5. Select the partition labeled “Windows”, select Format & click OK.
+4. Select __Custom (advanced)__
+5. Select the partition labeled “__Windows__”, select __Format__ & click __OK__.
 6. If it says Windows cannot be installed on the partition  and doesn’t let you install windows on that part, just restart and it should let you install .
 7. Install windows, once windows is done installing, go through the initial setup and install your drivers like you would regularly do for any new windows installation.
 8. Once your done all that shutdown your computer
@@ -73,7 +74,8 @@ if you can’t get to the OSX install use these boot flags at the chimera boot s
 
 1. Unplug windows usb drive and insert unibeast flash drive again. turn on your computer.
 2. Boot into unibeast flash drive from the boot menu.
-3. At the chimera boot screen select your Macintosh installation.
+3. At the chimera boot screen select your __Macintosh__ installation.
 4. Once your is OSX run mulltibeast and install the chimera bootloader i like to just select the DSDT Free option. Once complete, take out the usb flash drive and  reboot.
-5. And congrats you now have a choice of running either osx and windows on your pc. so every time you turn on your pc you can boot into what ever operating system you like.
+
+And congrats you now have a choice of running either osx and windows on your pc. so every time you turn on your pc you can boot into what ever operating system you like.
 
