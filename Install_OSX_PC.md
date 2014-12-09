@@ -27,6 +27,7 @@ Make your you have Unibeast and Multibeast downloaded and unziped on to your des
 
 ___STEP 1:___ Download OSX 10.10 Yosemite
 The cool thing is that the whole OS is free for anyone who has a Apple ID and acess to a machine running 10.6.8 Snow Leopard or later.
+
 1. Open Mac App Store
 2. Log into your Apple ID
 3. Download OS X Yosemite (its a big file >5GB so relax)
@@ -51,8 +52,11 @@ _STEP 2:_ Making a Bootable USB Drive
 15. If using a 5 or 6 Series system with AWARD BIOS choose _Legacy USB Support_
 16. If using a laptop, choose _Laptop Support_
 17. Click _Continue_
+
 ![](http://www.tonymacx86.com/attachments/106476d1412962807-ub-4.png.html)
+
 18. Enter your password and click _Install_
+
 ![](http://www.tonymacx86.com/attachments/106477d1412962924-ub-6.png.html)
 UniBeast will now create the bootable USB drive. Once completed put your the Multibeast folder in the USB drive.
 _STEP 4:__Boot into USB Drive
