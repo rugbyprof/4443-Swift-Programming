@@ -73,6 +73,7 @@ If you can’t get to the OSX installer, try typing in __-x__ at the Chimera Boo
 __STEP 5: Install OSX Yosemite__
 
 Once you get to the installer:
+
 1. In the top menu bar choose __Utilities__, and open __Disk Utility__
 2. Highlight your target hard drive for the Yosemite installation in left column.
 3. Click __Partition__ tab
