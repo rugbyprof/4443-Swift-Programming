@@ -36,23 +36,27 @@ The cool thing is that the whole OS is free for anyone who has a Apple ID and ac
 ___STEP 2:___ Making a Bootable USB Drive
 
 1. Insert your USB drive the is 8GB or Larger
-1. Open /Applications/Utilities/Disk Utility
-1. Select your USB drive
-1. Go to the Partition Tab
-1. Click Current and choose 1 Partition 
-1. Click Options and Choose Master Boot Record
-1. Under Name: type USB
-1. Under Format: choose Mac OS Extended (Journaled)
-1. Click Apply then Partition
-1. Open UniBeast from your desktop
-1. Click Continue, Continue, Continue, Agree
+2. Open /Applications/Utilities/Disk Utility
+3. Select your USB drive
+4. Go to the Partition Tab
+5. Click Current and choose 1 Partition 
+6. Click Options and Choose Master Boot Record
+7. Under Name: type USB
+8. Under Format: choose Mac OS Extended (Journaled)
+9. Click Apply then Partition
+10. Open UniBeast from your desktop
+11. Click Continue, Continue, Continue, Agree
+
+![](http://www.tonymacx86.com/attachments/106475d1412962728-ub-1.png.html)
 
 12. At Destination Select, choose USB and click Continue
 
+![](http://www.tonymacx86.com/attachments/106472d1412962641-ub-2.png.html)
 
 13. Choose Yosemite on the Select OS Installation screen
 14. Click Continue
 
+![](http://www.tonymacx86.com/attachments/106478d1412962972-ub-3.png.html)
 
 15. If using a 5 or 6 Series system with AWARD BIOS choose Legacy USB Support
 16. If using a laptop, choose Laptop Support
