@@ -59,7 +59,10 @@ _STEP 2:_ Making a Bootable USB Drive
 
 ![](http://www.tonymacx86.com/attachments/106477d1412962924-ub-6.png.html)
 UniBeast will now create the bootable USB drive. Once completed put your the Multibeast folder in the USB drive.
+
+
 _STEP 4:__Boot into USB Drive
+
 1. Turn on the computer
 2. Press the hotkey to choose boot device (usually F12 or F8)
 3. Choose _USB-HDD_
