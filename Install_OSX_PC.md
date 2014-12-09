@@ -31,6 +31,8 @@ The cool thing is that the whole OS is free for anyone who has a Apple ID and ac
 1. Open Mac App Store
 2. Log into your Apple ID
 3. Download OS X Yosemite (its a big file >5GB so relax)
+
+
 _STEP 2:_ Making a Bootable USB Drive
 1. Insert your USB drive the is 8GB or Larger
 2. Open /Applications/Utilities/_Disk Utility_
