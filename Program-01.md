@@ -12,7 +12,7 @@ What we would like to do is add functionality to this existing program by making
 ```swift
 var colorNames : [String] = ["Red","Green","Blue","Orange","Black","White","Brown","Purple","Gray","Yellow"]
 ```
-Instead I want to use 129 colors given to us by HTML standards. A small example follows:
+- Instead I want to use 129 colors given to us by HTML standards. A small example follows:
 
 ```json
 {
@@ -26,6 +26,24 @@ black: "000000",
 blanchedalmond: "FFEBCD",
 blue: "0000FF"
 }
+```
+
+- Notice that the new set of colors is in a json format, with names and hex values. I would assume that you will store this data as a dictionary. Below is an example `Swift` dictionary with color names, and `UInt` values in hexidecimal format. 
+
+```swift
+    var colorRGB : [Dictionary<String,UInt>] = [
+        ["Red":0xFF0000],
+        ["Green":0x00FF00],
+        ["Blue":0x0000FF],
+        ["Orange":0xFF7F00],
+        ["Black":0x000000],
+        ["White":0xFFFFFF],
+        ["Pink":0xFF6EB4],
+        ["Purple":0x8968CD],
+        ["Gray":0xBEBEBE],
+        ["Yellow":0xFFFF00],
+        ["Gray2":0xC0C0C0]
+    ]
 ```
 
 You need to also read your color information from a `JSON` file available via a specified `URL`. This way if the `colors.json` file changes at any time, it will be reflected in your game. 
