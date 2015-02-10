@@ -7,17 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8514B4CE1A814C0B005F9715 /* colors.json in Resources */ = {isa = PBXBuildFile; fileRef = 8514B4CD1A814C0B005F9715 /* colors.json */; };
 		8514B53D1A818147005F9715 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8514B53C1A818147005F9715 /* SwiftyJSON.swift */; };
-		8514B5FE1A82F507005F9715 /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8514B5FD1A82F507005F9715 /* Alamofire.swift */; };
+		85AC48C71A8AB913005DE77C /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85AC48C61A8AB913005DE77C /* Alamofire.swift */; };
 		85B054261A7FF98600B60421 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85B054251A7FF98600B60421 /* AppDelegate.swift */; };
 		85B054281A7FF98600B60421 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85B054271A7FF98600B60421 /* ViewController.swift */; };
-		85B0542B1A7FF98600B60421 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85B054291A7FF98600B60421 /* Main.storyboard */; };
-		85B0542D1A7FF98600B60421 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85B0542C1A7FF98600B60421 /* Images.xcassets */; };
-		85B054301A7FF98600B60421 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85B0542E1A7FF98600B60421 /* LaunchScreen.xib */; };
 		85B0543C1A7FF98700B60421 /* Swift_Color_Game_for_KidsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85B0543B1A7FF98700B60421 /* Swift_Color_Game_for_KidsTests.swift */; };
-		85B054471A801B0B00B60421 /* thumbs_down.png in Resources */ = {isa = PBXBuildFile; fileRef = 85B054451A801B0B00B60421 /* thumbs_down.png */; };
-		85B054481A801B0B00B60421 /* thumbs_up.png in Resources */ = {isa = PBXBuildFile; fileRef = 85B054461A801B0B00B60421 /* thumbs_up.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,7 +40,7 @@
 /* Begin PBXFileReference section */
 		8514B4CD1A814C0B005F9715 /* colors.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = colors.json; sourceTree = "<group>"; };
 		8514B53C1A818147005F9715 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SwiftyJSON.swift; path = ../SwiftyJSON.swift; sourceTree = "<group>"; };
-		8514B5FD1A82F507005F9715 /* Alamofire.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Alamofire.swift; sourceTree = "<group>"; };
+		85AC48C61A8AB913005DE77C /* Alamofire.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Alamofire.swift; sourceTree = "<group>"; };
 		85B054201A7FF98600B60421 /* Swift Color Game for Kids.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swift Color Game for Kids.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		85B054241A7FF98600B60421 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		85B054251A7FF98600B60421 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -79,16 +73,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		8596E8691A8AA76600310E6E /* Models */ = {
+		85AC48C31A8AB868005DE77C /* Models */ = {
 			isa = PBXGroup;
 			children = (
 				8514B53C1A818147005F9715 /* SwiftyJSON.swift */,
-				8514B5FD1A82F507005F9715 /* Alamofire.swift */,
+				85AC48C61A8AB913005DE77C /* Alamofire.swift */,
 			);
 			name = Models;
 			sourceTree = "<group>";
 		};
-		8596E86A1A8AA76D00310E6E /* Views */ = {
+		85AC48C41A8AB874005DE77C /* Views */ = {
 			isa = PBXGroup;
 			children = (
 				85B054291A7FF98600B60421 /* Main.storyboard */,
@@ -96,7 +90,7 @@
 			name = Views;
 			sourceTree = "<group>";
 		};
-		8596E86B1A8AA77400310E6E /* Controllers */ = {
+		85AC48C51A8AB87A005DE77C /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
 				85B054271A7FF98600B60421 /* ViewController.swift */,
@@ -125,14 +119,13 @@
 		85B054221A7FF98600B60421 /* Swift Color Game for Kids */ = {
 			isa = PBXGroup;
 			children = (
-				8596E86B1A8AA77400310E6E /* Controllers */,
-				8596E86A1A8AA76D00310E6E /* Views */,
-				8596E8691A8AA76600310E6E /* Models */,
+				85AC48C51A8AB87A005DE77C /* Controllers */,
+				85AC48C41A8AB874005DE77C /* Views */,
+				85AC48C31A8AB868005DE77C /* Models */,
 				85B054251A7FF98600B60421 /* AppDelegate.swift */,
 				85B0542C1A7FF98600B60421 /* Images.xcassets */,
 				85B0542E1A7FF98600B60421 /* LaunchScreen.xib */,
 				85B054231A7FF98600B60421 /* Supporting Files */,
-				8514B4CD1A814C0B005F9715 /* colors.json */,
 			);
 			path = "Swift Color Game for Kids";
 			sourceTree = "<group>";
@@ -140,6 +133,7 @@
 		85B054231A7FF98600B60421 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				8514B4CD1A814C0B005F9715 /* colors.json */,
 				85B054451A801B0B00B60421 /* thumbs_down.png */,
 				85B054461A801B0B00B60421 /* thumbs_up.png */,
 				85B054241A7FF98600B60421 /* Info.plist */,
@@ -245,12 +239,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				85B054471A801B0B00B60421 /* thumbs_down.png in Resources */,
-				85B0542B1A7FF98600B60421 /* Main.storyboard in Resources */,
-				85B054301A7FF98600B60421 /* LaunchScreen.xib in Resources */,
-				8514B4CE1A814C0B005F9715 /* colors.json in Resources */,
-				85B054481A801B0B00B60421 /* thumbs_up.png in Resources */,
-				85B0542D1A7FF98600B60421 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,8 +257,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				8514B53D1A818147005F9715 /* SwiftyJSON.swift in Sources */,
-				8514B5FE1A82F507005F9715 /* Alamofire.swift in Sources */,
 				85B054281A7FF98600B60421 /* ViewController.swift in Sources */,
+				85AC48C71A8AB913005DE77C /* Alamofire.swift in Sources */,
 				85B054261A7FF98600B60421 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
