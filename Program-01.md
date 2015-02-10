@@ -1,5 +1,8 @@
 ## Program 1 - Single Page Application
 #### Due Friday 20 February by Midnight.
+- Must be uploaded into your github repository.
+- Do not upload it until the day it is due. 
+- This is an individual project. Suspected cheating can result in an F on the assignment and / or removal from the course with a failing grade. 
 
 ### Overview
 
