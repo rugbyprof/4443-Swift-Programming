@@ -64,4 +64,6 @@ double ColourDistance(RGB e1, RGB e2)
   return sqrt((((512+rmean)*r*r)>>8) + 4*g*g + (((767-rmean)*b*b)>>8));
 }
 ```
+The final product should look the same, but the color options should be something like below:
 
+![](http://f.cl.ly/items/360N3N2J1Y0x3b3h3P0B/ios_screen_small.png)
