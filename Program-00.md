@@ -3,7 +3,7 @@
 
 - Must be uploaded into your github repository.
 - This is the first "tutorial" in iOS Apprentice Chapter 1
-- The book can be obtained here: http://cs.mwsu.edu/~griffin/swift/iOS_Apprenctice_8_Swift.zip
+- The chapter can be obtained here (it's free): http://cs.mwsu.edu/~griffin/swift/The_iOS_Apprentice_1-Getting_Started.zip
 
 ![](http://f.cl.ly/items/3R3I3c2S3m172T0L0y34/Screen%20Shot%202015-02-11%20at%201.00.46%20PM.png)
 
