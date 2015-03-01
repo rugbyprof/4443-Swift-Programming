@@ -90,6 +90,16 @@ class ViewController: UIViewController {
                     
                     //Start the game
                     self.matchColorLogic()
+                    
+                    
+                    //Example usage of the Colors class
+                    var randColor = self.myColors.fetchRandomColor()
+                    
+                    println("\(randColor.hexValue) : \(randColor.colorName) ")
+                    
+                    var uicolor = self.myColors.hexStringToUIColor(randColor.hexValue)
+                    
+                    println(uicolor)
                 }
         }
     }
