@@ -8,6 +8,13 @@
 
 import UIKit
 
+class ResponsePackage {
+    
+    var success = false
+    var response: AnyObject? = nil
+    var error: NSError? = nil
+    
+}
 
 class ViewController: UIViewController {
     
@@ -50,51 +57,41 @@ class ViewController: UIViewController {
         ["Yellow":0xFFFF00],
         ["Gray2":0xC0C0C0]
     ]
+
+    var myColors:Colors
+    
+    required init(coder aDecoder: NSCoder){
+    
+        myColors = Colors()
+
+        super.init(coder: aDecoder)
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        matchColorLogic()
-        
-        //Read from a file example:
-        let read : String? = File.read("Program_1_Starter/colors.json")
-        //println(read)
-        
-        //Write to  a file example:
-        let write : Bool = File.write("Program_1_Starter/colors2.json", content: "String to write")
-        //println(write)
-        
-        //Setup the url to get colors from
-        let url = "http://cs.mwsu.edu/~griffin/swift/colors.json"
-        
-        //Run alamo library get request to grab the json data
-        request(.GET, url)
+
+
+        //Fetch the Json color object from the CS server
+        request(.GET, "http://cs.mwsu.edu/~griffin/swift/colors2.json")
             .responseJSON { (req, res, json, error) in
                 if(error != nil) {
                     println("Error: \(error)")
                     println(req)
                     println(res)
-                }
-                else {
-                    println("Success: \(url)")
+                } else {
+                    
+                    println("Success")
+                    
+                    //Unwrap the json (not safe, but oh well)
                     var json = JSON(json!)
-                    for (key: String, subJson: JSON) in json {
-                        println(key)
-                    }
                     
-                    //or
+                    //If we are successful, then call the method `parseJson` to load the "color class: Colors"
+                    self.parseJson(json)
                     
-                    for (key,val) in json{
-                        println("\(key):\(val)")
-                    }
+                    //Start the game
+                    self.matchColorLogic()
                 }
-                
         }
-        
-        
-        //Another way to read the json file
-        let json = myJson.getJSON(url)
-        var jsonDict = myJson.parseJSON(json)
-        println("jsonDict")
     }
     
     override func didReceiveMemoryWarning() {
@@ -190,8 +187,6 @@ class ViewController: UIViewController {
     
     func changeColor() -> Bool{
         
-        println(UIColor.brownColor())
-        
         if(colorNumber == 0){
             //lblChangeColor.backgroundColor = UIColor.redColor()
             lblChangeColor.backgroundColor = UIColorFromRGB(0xFF0000)
@@ -241,33 +236,71 @@ class ViewController: UIViewController {
         )
     }
     
+    /********************************************************************************************
+    * Function: parseJson
+    *   Parses json object and loads it into the "Colors" class for us to use.
+    * @Params:
+    *   json:JSON - Json object to be parsed
+    * @Returns:
+    *   Void
+    ********************************************************************************************/
+    func parseJson(json:JSON)->Void{
+        
+        var colors = Colors()
+        var colorName = ""
+        var hexValue = ""
+        var hsv:HSV
+        var hsl:HSL
+        var rgb:RGB
+        var col = ""
+        var hex = ""
+        var r = 0.0
+        var g = 0.0
+        var b = 0.0
+        var h1 = 0
+        var s1 = 0.0
+        var h2 = 0
+        var s2 = 0.0
+        var l = 0.0
+        var v = 0.0
+        
+        
+        for (index,subjson) in json {
+            for (key,val) in subjson {
+                switch key {
+                case "colorName":
+                    col = val.stringValue
+                case "hexValue":
+                    hex = val.stringValue
+                case "RGB":
+                    r = val["R"].doubleValue
+                    g = val["G"].doubleValue
+                    b = val["B"].doubleValue
+                case "HSL":
+                    h1 = val["H"].intValue
+                    s1 = val["S"].doubleValue
+                    l = val["L"].doubleValue
+                case "HSV":
+                    h2 = val["H"].intValue
+                    s2 = val["S"].doubleValue
+                    v = val["V"].doubleValue
+                default:
+                    println("Error!")
+                }
+            }
+            
+            self.myColors.addColor(col,hex:hex,red:r,green:g,blue:b,hue1:h1,sat1:s1,hue2:h2,sat2:s2,value:v,lightness:l)
+        }
+        self.myColors.printColors()
+        println(self.myColors.fetchColorName("#CE2029"))
+        println(self.myColors.fetchRGB("#CE2029"))
+    }
+    
 }
 
-/********************************************************************************************
-* File read and write helper class
-* Methods:
-*   exists(string) returns Bool
-*   read(string,encoding) returns String
-*   write(string,string,encoding,error) returns Bool
-********************************************************************************************/
-class File {
-    
-    class func exists (path: String) -> Bool {
-        return NSFileManager().fileExistsAtPath(path)
-    }
-    
-    class func read (path: String, encoding: NSStringEncoding = NSUTF8StringEncoding) -> String? {
-        if File.exists(path) {
-            return String(contentsOfFile: path, encoding: encoding, error: nil)
-        }
-        
-        return nil
-    }
-    
-    class func write (path: String, content: String, encoding: NSStringEncoding = NSUTF8StringEncoding) -> Bool {
-        return content.writeToFile(path, atomically: true, encoding: encoding, error: nil)
-    }
-}
+
+
+
 
 /********************************************************************************************
 * Json Helper Class
@@ -288,7 +321,60 @@ class myJson {
     }
 }
 
+/********************************************************************************************
+* Color helper class
+* Methods:
+*   getJSON(string) returns NSData
+*   parseJSON(NSData) returns Dictionary
+********************************************************************************************/
+func hexStringToUIColor (hex:String) -> UIColor {
+    var cString:String = hex.stringByTrimmingCharactersInSet(NSCharacterSet.whitespaceAndNewlineCharacterSet() as NSCharacterSet).uppercaseString
+    
+    if (cString.hasPrefix("#")) {
+        cString = cString.substringFromIndex(advance(cString.startIndex, 1))
+    }
+    
+    if (countElements(cString) != 6) {
+        return UIColor.grayColor()
+    }
+    
+    var rgbValue:UInt32 = 0
+    NSScanner(string: cString).scanHexInt(&rgbValue)
+    
+    return UIColor(
+        red: CGFloat((rgbValue & 0xFF0000) >> 16) / 255.0,
+        green: CGFloat((rgbValue & 0x00FF00) >> 8) / 255.0,
+        blue: CGFloat(rgbValue & 0x0000FF) / 255.0,
+        alpha: CGFloat(1.0)
+    )
+}
 
+/********************************************************************************************
+* File read and write helper class
+* Methods:
+*   exists(string) returns Bool
+*   read(string,encoding) returns String
+*   write(string,string,encoding,error) returns Bool
+* A string to hex method can be found here: https://gist.github.com/arshad/de147c42d7b3063ef7bc
+********************************************************************************************/
+class File {
+    
+    class func exists (path: String) -> Bool {
+        return NSFileManager().fileExistsAtPath(path)
+    }
+    
+    class func read (path: String, encoding: NSStringEncoding = NSUTF8StringEncoding) -> String? {
+        if File.exists(path) {
+            return String(contentsOfFile: path, encoding: encoding, error: nil)
+        }
+        
+        return nil
+    }
+    
+    class func write (path: String, content: String, encoding: NSStringEncoding = NSUTF8StringEncoding) -> Bool {
+        return content.writeToFile(path, atomically: true, encoding: encoding, error: nil)
+    }
+}
 
 
 

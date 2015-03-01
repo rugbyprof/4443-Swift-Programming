@@ -16,6 +16,7 @@
 		85AC48FE1A8ABC45005DE77C /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85AC48FD1A8ABC45005DE77C /* SwiftyJSON.swift */; };
 		85AC49001A8ABC4C005DE77C /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85AC48FF1A8ABC4C005DE77C /* Alamofire.swift */; };
 		85AC49021A8ABC86005DE77C /* colors.json in Resources */ = {isa = PBXBuildFile; fileRef = 85AC49011A8ABC86005DE77C /* colors.json */; };
+		85DD06121AA1404200401830 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85DD06111AA1404200401830 /* Colors.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,7 @@
 		85AC48FD1A8ABC45005DE77C /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
 		85AC48FF1A8ABC4C005DE77C /* Alamofire.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Alamofire.swift; sourceTree = "<group>"; };
 		85AC49011A8ABC86005DE77C /* colors.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = colors.json; path = Program_1_Starter/colors.json; sourceTree = SOURCE_ROOT; };
+		85DD06111AA1404200401830 /* Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Colors.swift; path = ../Colors.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +125,7 @@
 		85AC48F61A8ABAF5005DE77C /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				85DD06111AA1404200401830 /* Colors.swift */,
 				85AC48FF1A8ABC4C005DE77C /* Alamofire.swift */,
 				85AC48FD1A8ABC45005DE77C /* SwiftyJSON.swift */,
 			);
@@ -247,6 +250,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				85AC48FE1A8ABC45005DE77C /* SwiftyJSON.swift in Sources */,
+				85DD06121AA1404200401830 /* Colors.swift in Sources */,
 				85AC48D91A8ABAEC005DE77C /* ViewController.swift in Sources */,
 				85AC49001A8ABC4C005DE77C /* Alamofire.swift in Sources */,
 				85AC48D71A8ABAEC005DE77C /* AppDelegate.swift in Sources */,
@@ -435,6 +439,7 @@
 				85AC48F21A8ABAEC005DE77C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		85AC48F31A8ABAEC005DE77C /* Build configuration list for PBXNativeTarget "Program_1_StarterTests" */ = {
 			isa = XCConfigurationList;
@@ -443,6 +448,7 @@
 				85AC48F51A8ABAEC005DE77C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
