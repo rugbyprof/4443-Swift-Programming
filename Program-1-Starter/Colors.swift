@@ -147,7 +147,7 @@ class Colors {
     *    ColorTuple => A random row in the colorsTupleArray
     ********************************************************************************************/
     func fetchRandomColor()->ColorTuple{
-        return colorsTupleArray[Int(arc4random_uniform(colorsTupleArray.count + 1))]
+        return colorsTupleArray[Int(arc4random_uniform(colorsTupleArray.count))]
     }
  
     /********************************************************************************************
