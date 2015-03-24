@@ -232,4 +232,16 @@ class Colors {
         println(colorsTupleArray[430].colorName)
     }
     
+    /********************************************************************************************
+    * Function:
+    *    resetCurrent - Set current back to beginning of array
+    * Params:
+    *    Void
+    * Returns:
+    *    Void
+    ********************************************************************************************/
+    func resetCurrent(){
+        current = 0;
+    }
+    
 }

@@ -8,6 +8,18 @@
 
 import UIKit
 
+extension UIColor
+{
+    convenience init(red: Int, green: Int, blue: Int)
+    {
+        let newRed = CGFloat(red)/255
+        let newGreen = CGFloat(green)/255
+        let newBlue = CGFloat(blue)/255
+        
+        self.init(red: newRed, green: newGreen, blue: newBlue, alpha: 1.0)
+    }
+}
+
 class ViewController: UIViewController , ColorTableViewControllerDelegate{
     
     // MARK: - Declarations
@@ -16,6 +28,10 @@ class ViewController: UIViewController , ColorTableViewControllerDelegate{
     
     @IBOutlet weak var chosenColorLabel: UILabel!
     @IBOutlet weak var colorItemsLabel: UILabel!
+    
+    @IBOutlet weak var redSlider: UISlider!
+    @IBOutlet weak var greenSlider: UISlider!
+    @IBOutlet weak var blueSlider: UISlider!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -85,6 +101,17 @@ class ViewController: UIViewController , ColorTableViewControllerDelegate{
         let labelColor:UIColor = myColors.hexStringToUIColor(myColors.fetchHexValue(color))
         chosenColorLabel.backgroundColor = labelColor
         colorItemsLabel.text = color
+        
+        let rgb = myColors.fetchRGB(color)
+        let r = Float(255*rgb.R)
+        let g = Float(255*rgb.G)
+        let b = Float(255*rgb.B)
+        
+        println("red: \(r)")
+        redSlider.setValue(r, animated: true)
+        greenSlider.setValue(g, animated: true)
+        blueSlider.setValue(b, animated: true)
+        
         println(labelColor)
     }
     
@@ -147,6 +174,38 @@ class ViewController: UIViewController , ColorTableViewControllerDelegate{
         println(self.myColors.fetchColorName("#CE2029"))
         println(self.myColors.fetchRGB("#CE2029"))
     }
+    
+    @IBAction func redSliderValueChanged(sender: UISlider) {
+        var redValue = CGFloat(sender.value)/255
+        var blueValue = CGFloat(blueSlider.value)/255
+        var greenValue = CGFloat(greenSlider.value)/255
+        let newColor = UIColor(red:redValue, green:greenValue,blue:blueValue,alpha:1.0)
+        
+        chosenColorLabel.backgroundColor = newColor
+
+    }
+    
+    @IBAction func greenSliderValueChanged(sender: UISlider) {
+        var redValue = CGFloat(redSlider.value)/255
+        var blueValue = CGFloat(blueSlider.value)/255
+        var greenValue = CGFloat(sender.value)/255
+        let newColor = UIColor(red:redValue, green:greenValue,blue:blueValue,alpha:1.0)
+        
+        chosenColorLabel.backgroundColor = newColor
+        
+    }
+    
+    @IBAction func blueSliderValueChanged(sender: UISlider) {
+        var redValue = CGFloat(redSlider.value)/255
+        var blueValue = CGFloat(sender.value)/255
+        var greenValue = CGFloat(greenSlider.value)/255
+        let newColor = UIColor(red:redValue, green:greenValue,blue:blueValue,alpha:1.0)
+        
+        chosenColorLabel.backgroundColor = newColor
+        
+    }
+    
+    
     
 }
 

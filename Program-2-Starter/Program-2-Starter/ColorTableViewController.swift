@@ -27,7 +27,7 @@ class ColorTableViewController: UITableViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        myColors.resetCurrent()
         doneMenuButton.enabled = false
     }
     
