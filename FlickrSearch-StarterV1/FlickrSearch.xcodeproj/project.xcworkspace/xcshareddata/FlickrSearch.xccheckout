@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>12AFB3A2-1C5C-4093-97AB-11FB27E2B328</string>
+	<key>IDESourceControlProjectName</key>
+	<string>FlickrSearch</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>119ACF4FAB6CB31AC86D740E720D538477620120</key>
+		<string>github.com:rugbyprof/msu-swift.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>FlickrSearch-StarterV1/FlickrSearch.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>119ACF4FAB6CB31AC86D740E720D538477620120</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:rugbyprof/msu-swift.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>119ACF4FAB6CB31AC86D740E720D538477620120</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>119ACF4FAB6CB31AC86D740E720D538477620120</string>
+			<key>IDESourceControlWCCName</key>
+			<string>msu-swift</string>
+		</dict>
+	</array>
+</dict>
+</plist>

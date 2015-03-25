@@ -1,0 +1,227 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Style-Type" content="text/css" />
+  <meta name="generator" content="pandoc" />
+  <title></title>
+  <style type="text/css">code{white-space: pre;}</style>
+  <link rel="stylesheet" href="pandoc.css" type="text/css" />
+</head>
+<body>
+<h2 id="test-1---swift">Test 1 <span style="font-size:18px;font-weight:bold">(Version B)</span> - Swift</h2>
+<h3 id="swift-programming---spring-2015">4443 Swift Programming - Spring 2015</h3>
+<h5 id="name_____________________________________">Name:_____________________________________</h5>
+<h3 id="instructions">Instructions:</h3>
+<ul>
+<li>Used the provided paper to answer your questions.<br /></li>
+<li>Place your name on each paper, and hand in all papers with your test.<br /></li>
+<li>Don't split answers between pages.<br /></li>
+<li>Number your pages in the top right corner with appropriate page number, then circle it.<br /></li>
+<li>Syntax errors, if found, are <strong>not</strong> intentional and should not be taken into account when answering questions (unless specifically instructed to do so).<br /></li>
+<li>You may use front and back of each sheet, but answers must be turned in order.</li>
+</ul>
+<hr />
+<p><strong><em>Question 1</em></strong></p>
+<p>The following code snippet will error. Can you re-write the last line so that Swift won't complain about it?</p>
+<pre class="swift"><code>
+let pi = 3.14159
+let radius = 4
+
+var area = radius * radius * pi 
+</code></pre>
+<hr />
+<p><strong><em>Question 2</em></strong></p>
+<p>Given:</p>
+<pre class="swift"><code>
+var MyArray:[Int] = [3,5,4,7,8,6,1,2,9]
+</code></pre>
+<p>Write out all the values of <code>MyArray</code> using the <code>closed range</code> operator.</p>
+<hr />
+    <DIV style="page-break-after:always"></DIV>
+<p><strong><em>Question 3</em></strong></p>
+<p>Given:</p>
+<pre class="swift"><code>
+var dictionary = [&quot;Bobs&quot;: &quot;Dog&quot;, &quot;Billys&quot;: &quot;Cat&quot;, &quot;Suzies&quot;: &quot;Cow&quot;, &quot;Beths&quot;: &quot;Snake&quot;]
+</code></pre>
+<p>Write out the <code>key</code>:<code>value</code> pairs using a single control flow construct. Your output should look like:</p>
+<pre class="swift"><code>
+Bobs:Dog
+Billys:Cat
+Suzies:Cow
+Beths:Snake
+</code></pre>
+<hr />
+<p><strong><em>Question 4</em></strong></p>
+<pre class="swift"><code>
+enum CompassPoint {
+    case North
+    case South
+    case East
+    case West
+}
+
+directionToHead = .South
+switch directionToHead {
+case .North:
+    println(&quot;Lots of planets have a north&quot;)
+case .South:
+    println(&quot;Watch out for penguins&quot;)
+case .East:
+    println(&quot;Where the sun rises&quot;)
+case .West:
+    println(&quot;Where the skies are blue&quot;)
+}
+</code></pre>
+<p>Is this a valid <code>switch</code> statement?</p>
+<ol>
+<li>Yes or No<br /></li>
+<li>In either case why or why not?</li>
+</ol>
+<hr />
+<p><strong><em>Question 5</em></strong></p>
+<p>Is the following snippet valid Swift syntax? Yes or No, explain.</p>
+<pre class="swift"><code>
+if enteredDoorCode &amp;&amp; passedRetinaScan || hasDoorKey || knowsOverridePassword {
+    println(&quot;Welcome!&quot;)
+} else {
+    println(&quot;ACCESS DENIED&quot;)
+}
+</code></pre>
+<hr />
+<p><strong><em>Question 6</em></strong></p>
+<p>Given:</p>
+<pre class="swift"><code>
+int a = 0
+int b = 1
+int c = 1
+int d = 0
+
+if ( a || b &amp;&amp; c || d ){
+     println(&quot;hello&quot;)
+}else{
+    println(&quot;goodbye&quot;)
+}
+</code></pre>
+<p>What would be printed? Or are there some problems with the snippet?</p>
+<hr />
+<p><strong><em>Question 7</em></strong></p>
+<p>Explain the difference between <code>var</code> and <code>let</code></p>
+<hr />
+<p><strong><em>Question 8</em></strong></p>
+<p>What is the difference between <code>explicit</code> and <code>implicit</code> typing, and give examples of both.</p>
+<hr />
+<p><strong><em>Question 9</em></strong></p>
+<p>What are the values of a, b, and c after the following code snippet completes?</p>
+<pre class="swift"><code>
+var a = 0
+let b = ++a
+let c = a++</code></pre>
+<hr />
+<p><strong><em>Question 10</em></strong></p>
+<p>Whats the difference between a <code>tuple</code> and <code>dictionary</code> type? Declare an example of each holding the same data.</p>
+<hr />
+    <DIV style="page-break-after:always"></DIV>
+<p><strong><em>Question 11</em></strong></p>
+<p>Given:</p>
+<pre class="swift"><code>
+var surveyAnswer: String?</code></pre>
+<p>What would the following output?</p>
+<pre class="swift"><code>
+println(surveyAnswer) </code></pre>
+<hr />
+<p><strong><em>Question 12</em></strong></p>
+<pre class="swift"><code>
+let b = 10
+var a = 5
+a = b
+</code></pre>
+<p>What is the value of <code>a</code>?</p>
+<hr />
+<p><strong><em>Question 13</em></strong></p>
+<p>Given:</p>
+<pre class="swift"><code>
+var tpl = (23,&quot;Padre&quot;,.08,&quot;Hair of the Dog&quot;,42,3.14159)
+</code></pre>
+<p>In a single line of code, assign each of those values in <code>tpl</code> into their own variables, such that:</p>
+<pre class="swift"><code>
+a = 23
+b = &quot;Padre&quot;
+c = .08
+d = &quot;Hair of the Dog&quot;
+e = 42
+f = 3.14159
+</code></pre>
+<hr />
+<p><strong><em>Question 14</em></strong></p>
+<p>Given the following code snippet. Rewrite it using if / else statements.</p>
+<pre class="swift"><code>
+let contentHeight = 40
+let hasHeader = true
+let rowHeight = contentHeight + (hasHeader ? 50 : 20)
+</code></pre>
+<hr />
+<p><strong><em>Question 15</em></strong></p>
+<p>Write a function called <code>MinMax</code> that receives an array of integers and returns the Minimum value AND the Maximum value in the same return statement.</p>
+<hr />
+<p><strong><em>Question 16</em></strong></p>
+<p>Why is it a good practice to create immutable collections in cases where the collection does not need to change?</p>
+<p>Give an example of an <code>immutable</code> collection.</p>
+<hr />
+<p><strong><em>Question 17</em></strong></p>
+<p>Declare an empty array called <code>someInts</code>. It obviously holds integers.</p>
+<hr />
+<p><strong><em>Question 18</em></strong></p>
+<pre class="swift"><code>
+var address = (&quot;Number&quot;:3410, &quot;Line 1&quot;:Taft Blvd&quot;, &quot;Line 2&quot;:&quot;Computer Science&quot;,&quot;City&quot;:&quot;Wichita Falls&quot;,&quot;State&quot;:&quot;Tx&quot;, &quot;Zipcode&quot;:78245)
+</code></pre>
+<p>Write out the <code>City</code> portion of the above <code>Tuple</code> using two different methods.</p>
+<hr />
+<p><strong><em>Question 19</em></strong></p>
+<pre class="swift"><code>
+var dictionary = [&quot;Bobs&quot;: &quot;Dog&quot;, &quot;Billys&quot;: &quot;Cat&quot;, &quot;Suzies&quot;: &quot;Cow&quot;, &quot;Beths&quot;: &quot;Snake&quot;]
+</code></pre>
+<p>How would you remove the entry &quot;Billys&quot;:&quot;Cat&quot; so that the dictionary prints:</p>
+<pre class="swift"><code>
+var dictionary = [&quot;Bobs&quot;: &quot;Dog&quot;, &quot;Suzies&quot;: &quot;Cow&quot;, &quot;Beths&quot;: &quot;Snake&quot;]
+</code></pre>
+<hr />
+    <DIV style="page-break-after:always"></DIV>
+<p><strong><em>Question 20</em></strong></p>
+<p>Explain the difference between a constant class and a constant struct?</p>
+<p>For example:</p>
+<pre class="swift"><code>
+struct Resolution {
+    var width = 0
+    var height = 0
+}
+
+class VideoMode {
+    var resolution = Resolution()
+    var interlaced = false
+    var frameRate = 0.0
+    var name: String?
+}
+
+let someResolution = Resolution()
+
+let someVideoMode = VideoMode()
+
+let tenEighty = VideoMode()
+tenEighty.resolution = hd
+tenEighty.interlaced = true
+tenEighty.name = &quot;1080i&quot;
+tenEighty.frameRate = 25.0
+
+let alsoTenEighty = tenEighty
+alsoTenEighty.frameRate = 30.0
+</code></pre>
+<p>If I were to print out the values from <code>tenEighty</code> and <code>alsoTenEighty</code> what would be output? <br>Write your answer in the following form:</p>
+<pre class="swift"><code>
+tenEighty: { width: value, height: value , interlaced: value,  frameRate: value, name: value }
+alsoTenEighty: { width: value, height: value , interlaced: value,  frameRate: value, name: value }
+</code></pre>
+<p>Explain your values for each constant.</p>
+<hr />
+</body>
+</html>
