@@ -12,22 +12,34 @@
 	<dict>
 		<key>119ACF4FAB6CB31AC86D740E720D538477620120</key>
 		<string>github.com:rugbyprof/msu-swift.git</string>
+		<key>8A62EDC508DD03AF1C714C974D19950828CC3E36</key>
+		<string>github.com:rugbyprof/4443-Swift-Programming.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>MyLocations/MyLocations.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>119ACF4FAB6CB31AC86D740E720D538477620120</key>
+		<string>../../../../msu-swift</string>
+		<key>8A62EDC508DD03AF1C714C974D19950828CC3E36</key>
 		<string>../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>github.com:rugbyprof/msu-swift.git</string>
+	<string>github.com:rugbyprof/4443-Swift-Programming.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>119ACF4FAB6CB31AC86D740E720D538477620120</string>
+	<string>8A62EDC508DD03AF1C714C974D19950828CC3E36</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>8A62EDC508DD03AF1C714C974D19950828CC3E36</string>
+			<key>IDESourceControlWCCName</key>
+			<string>4443-Swift-Programming</string>
+		</dict>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
