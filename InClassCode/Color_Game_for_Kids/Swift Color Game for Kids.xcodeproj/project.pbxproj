@@ -45,8 +45,8 @@
 
 /* Begin PBXFileReference section */
 		8514B4CD1A814C0B005F9715 /* colors.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = colors.json; sourceTree = "<group>"; };
-		8514B53C1A818147005F9715 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SwiftyJSON.swift; path = ../SwiftyJSON.swift; sourceTree = "<group>"; };
-		8514B5FD1A82F507005F9715 /* Alamofire.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Alamofire.swift; sourceTree = "<group>"; };
+		8514B53C1A818147005F9715 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+		8514B5FD1A82F507005F9715 /* Alamofire.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = "Swift Color Game for Kids/Alamofire.swift"; sourceTree = "<group>"; };
 		85B054201A7FF98600B60421 /* Swift Color Game for Kids.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swift Color Game for Kids.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		85B054241A7FF98600B60421 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		85B054251A7FF98600B60421 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -79,34 +79,11 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		8596E8691A8AA76600310E6E /* Models */ = {
-			isa = PBXGroup;
-			children = (
-				8514B53C1A818147005F9715 /* SwiftyJSON.swift */,
-				8514B5FD1A82F507005F9715 /* Alamofire.swift */,
-			);
-			name = Models;
-			sourceTree = "<group>";
-		};
-		8596E86A1A8AA76D00310E6E /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				85B054291A7FF98600B60421 /* Main.storyboard */,
-			);
-			name = Views;
-			sourceTree = "<group>";
-		};
-		8596E86B1A8AA77400310E6E /* Controllers */ = {
-			isa = PBXGroup;
-			children = (
-				85B054271A7FF98600B60421 /* ViewController.swift */,
-			);
-			name = Controllers;
-			sourceTree = "<group>";
-		};
 		85B054171A7FF98600B60421 = {
 			isa = PBXGroup;
 			children = (
+				8514B5FD1A82F507005F9715 /* Alamofire.swift */,
+				8514B53C1A818147005F9715 /* SwiftyJSON.swift */,
 				85B054221A7FF98600B60421 /* Swift Color Game for Kids */,
 				85B054381A7FF98600B60421 /* Swift Color Game for KidsTests */,
 				85B054211A7FF98600B60421 /* Products */,
@@ -125,10 +102,9 @@
 		85B054221A7FF98600B60421 /* Swift Color Game for Kids */ = {
 			isa = PBXGroup;
 			children = (
-				8596E86B1A8AA77400310E6E /* Controllers */,
-				8596E86A1A8AA76D00310E6E /* Views */,
-				8596E8691A8AA76600310E6E /* Models */,
 				85B054251A7FF98600B60421 /* AppDelegate.swift */,
+				85B054271A7FF98600B60421 /* ViewController.swift */,
+				85B054291A7FF98600B60421 /* Main.storyboard */,
 				85B0542C1A7FF98600B60421 /* Images.xcassets */,
 				85B0542E1A7FF98600B60421 /* LaunchScreen.xib */,
 				85B054231A7FF98600B60421 /* Supporting Files */,

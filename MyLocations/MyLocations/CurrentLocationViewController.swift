@@ -13,6 +13,11 @@ class CurrentLocationViewController: UIViewController, CLLocationManagerDelegate
     
     let locationManager = CLLocationManager()
     
+    var location: CLLocation?
+    
+    var currentPoint = PointData()
+    
+    
     @IBOutlet weak var messageLabel: UILabel!
     @IBOutlet weak var latitudeLabel: UILabel!
     @IBOutlet weak var longitudeLabel: UILabel!
@@ -48,11 +53,14 @@ class CurrentLocationViewController: UIViewController, CLLocationManagerDelegate
         presentViewController(alert, animated: true, completion: nil)
     }
 
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        currentPoint = (self.tabBarController as CustomTabBarController).currentPoint
     }
-
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
@@ -68,6 +76,19 @@ class CurrentLocationViewController: UIViewController, CLLocationManagerDelegate
         didUpdateLocations locations: [AnyObject]!) {
         let newLocation = locations.last as CLLocation
         println("didUpdateLocations \(newLocation)")
+            
+        location = newLocation
+            
+        updateLabels()
+    }
+    
+    func updateLabels(){
+        if let location = location{
+            latitudeLabel.text = String(format: "%.8f", location.coordinate.latitude)
+            currentPoint.lat = location.coordinate.latitude
+            longitudeLabel.text = String(format: "%.8f", location.coordinate.longitude)
+            currentPoint.lon = location.coordinate.longitude
+        }
     }
 
 }

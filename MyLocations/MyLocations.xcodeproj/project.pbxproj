@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8544908F1AC494A400F85352 /* customTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8544908E1AC494A400F85352 /* customTabBarController.swift */; };
+		854490911AC4BA3B00F85352 /* icon.80.png in Resources */ = {isa = PBXBuildFile; fileRef = 854490901AC4BA3B00F85352 /* icon.80.png */; };
 		857CC4F21AC1FDF000AF61ED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 857CC4F11AC1FDF000AF61ED /* AppDelegate.swift */; };
 		857CC4F41AC1FDF000AF61ED /* CurrentLocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 857CC4F31AC1FDF000AF61ED /* CurrentLocationViewController.swift */; };
 		857CC4F61AC1FDF000AF61ED /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 857CC4F51AC1FDF000AF61ED /* SecondViewController.swift */; };
@@ -27,6 +29,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8544908E1AC494A400F85352 /* customTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = customTabBarController.swift; sourceTree = "<group>"; };
+		854490901AC4BA3B00F85352 /* icon.80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.80.png; sourceTree = "<group>"; };
 		857CC4EC1AC1FDF000AF61ED /* MyLocations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyLocations.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		857CC4F01AC1FDF000AF61ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		857CC4F11AC1FDF000AF61ED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -86,6 +90,7 @@
 				857CC4FA1AC1FDF000AF61ED /* Images.xcassets */,
 				857CC4FC1AC1FDF000AF61ED /* LaunchScreen.xib */,
 				857CC4EF1AC1FDF000AF61ED /* Supporting Files */,
+				8544908E1AC494A400F85352 /* customTabBarController.swift */,
 			);
 			path = MyLocations;
 			sourceTree = "<group>";
@@ -93,6 +98,7 @@
 		857CC4EF1AC1FDF000AF61ED /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				854490901AC4BA3B00F85352 /* icon.80.png */,
 				857CC4F01AC1FDF000AF61ED /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -197,6 +203,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				857CC4F91AC1FDF000AF61ED /* Main.storyboard in Resources */,
+				854490911AC4BA3B00F85352 /* icon.80.png in Resources */,
 				857CC4FE1AC1FDF000AF61ED /* LaunchScreen.xib in Resources */,
 				857CC4FB1AC1FDF000AF61ED /* Images.xcassets in Resources */,
 			);
@@ -218,6 +225,7 @@
 			files = (
 				857CC4F61AC1FDF000AF61ED /* SecondViewController.swift in Sources */,
 				857CC4F21AC1FDF000AF61ED /* AppDelegate.swift in Sources */,
+				8544908F1AC494A400F85352 /* customTabBarController.swift in Sources */,
 				857CC4F41AC1FDF000AF61ED /* CurrentLocationViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -416,6 +424,7 @@
 				857CC50F1AC1FDF000AF61ED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		857CC5101AC1FDF000AF61ED /* Build configuration list for PBXNativeTarget "MyLocationsTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +433,7 @@
 				857CC5121AC1FDF000AF61ED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Alamofire
 
 
 class ViewController: UIViewController {
@@ -64,7 +65,7 @@ class ViewController: UIViewController {
         let url = "https://raw.githubusercontent.com/rugbyprof/msu-swift/master/Swift%20Color%20Game%20for%20Kids/Swift%20Color%20Game%20for%20Kids/colors.json?token=AA_qiMX6aezCbZRcASGFVWX5IFfGJ2pwks5U2nY9wA%3D%3D"
 
         //Run alamo library get request to grab the json data
-        request(.GET, url)
+        Alamofire.request(.GET, url)
             .responseJSON { (req, res, json, error) in
                 if(error != nil) {
                     println("Error: \(error)")
