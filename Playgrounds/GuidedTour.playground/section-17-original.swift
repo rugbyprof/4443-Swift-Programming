@@ -1,2 +1,0 @@
-shoppingList = []
-occupations = [:]
