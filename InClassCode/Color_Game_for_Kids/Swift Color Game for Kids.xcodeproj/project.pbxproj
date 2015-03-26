@@ -1,0 +1,462 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8514B4CE1A814C0B005F9715 /* colors.json in Resources */ = {isa = PBXBuildFile; fileRef = 8514B4CD1A814C0B005F9715 /* colors.json */; };
+		8514B53D1A818147005F9715 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8514B53C1A818147005F9715 /* SwiftyJSON.swift */; };
+		8514B5FE1A82F507005F9715 /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8514B5FD1A82F507005F9715 /* Alamofire.swift */; };
+		85B054261A7FF98600B60421 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85B054251A7FF98600B60421 /* AppDelegate.swift */; };
+		85B054281A7FF98600B60421 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85B054271A7FF98600B60421 /* ViewController.swift */; };
+		85B0542B1A7FF98600B60421 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85B054291A7FF98600B60421 /* Main.storyboard */; };
+		85B0542D1A7FF98600B60421 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85B0542C1A7FF98600B60421 /* Images.xcassets */; };
+		85B054301A7FF98600B60421 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85B0542E1A7FF98600B60421 /* LaunchScreen.xib */; };
+		85B0543C1A7FF98700B60421 /* Swift_Color_Game_for_KidsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85B0543B1A7FF98700B60421 /* Swift_Color_Game_for_KidsTests.swift */; };
+		85B054471A801B0B00B60421 /* thumbs_down.png in Resources */ = {isa = PBXBuildFile; fileRef = 85B054451A801B0B00B60421 /* thumbs_down.png */; };
+		85B054481A801B0B00B60421 /* thumbs_up.png in Resources */ = {isa = PBXBuildFile; fileRef = 85B054461A801B0B00B60421 /* thumbs_up.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		85B054361A7FF98600B60421 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 85B054181A7FF98600B60421 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 85B0541F1A7FF98600B60421;
+			remoteInfo = "Swift Color Game for Kids";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8514B5351A817F70005F9715 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		8514B4CD1A814C0B005F9715 /* colors.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = colors.json; sourceTree = "<group>"; };
+		8514B53C1A818147005F9715 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+		8514B5FD1A82F507005F9715 /* Alamofire.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = "Swift Color Game for Kids/Alamofire.swift"; sourceTree = "<group>"; };
+		85B054201A7FF98600B60421 /* Swift Color Game for Kids.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swift Color Game for Kids.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		85B054241A7FF98600B60421 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		85B054251A7FF98600B60421 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		85B054271A7FF98600B60421 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		85B0542A1A7FF98600B60421 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		85B0542C1A7FF98600B60421 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		85B0542F1A7FF98600B60421 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		85B054351A7FF98600B60421 /* Swift Color Game for KidsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Swift Color Game for KidsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		85B0543A1A7FF98700B60421 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		85B0543B1A7FF98700B60421 /* Swift_Color_Game_for_KidsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_Color_Game_for_KidsTests.swift; sourceTree = "<group>"; };
+		85B054451A801B0B00B60421 /* thumbs_down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = thumbs_down.png; sourceTree = "<group>"; };
+		85B054461A801B0B00B60421 /* thumbs_up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = thumbs_up.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		85B0541D1A7FF98600B60421 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85B054321A7FF98600B60421 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		85B054171A7FF98600B60421 = {
+			isa = PBXGroup;
+			children = (
+				8514B5FD1A82F507005F9715 /* Alamofire.swift */,
+				8514B53C1A818147005F9715 /* SwiftyJSON.swift */,
+				85B054221A7FF98600B60421 /* Swift Color Game for Kids */,
+				85B054381A7FF98600B60421 /* Swift Color Game for KidsTests */,
+				85B054211A7FF98600B60421 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		85B054211A7FF98600B60421 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				85B054201A7FF98600B60421 /* Swift Color Game for Kids.app */,
+				85B054351A7FF98600B60421 /* Swift Color Game for KidsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		85B054221A7FF98600B60421 /* Swift Color Game for Kids */ = {
+			isa = PBXGroup;
+			children = (
+				85B054251A7FF98600B60421 /* AppDelegate.swift */,
+				85B054271A7FF98600B60421 /* ViewController.swift */,
+				85B054291A7FF98600B60421 /* Main.storyboard */,
+				85B0542C1A7FF98600B60421 /* Images.xcassets */,
+				85B0542E1A7FF98600B60421 /* LaunchScreen.xib */,
+				85B054231A7FF98600B60421 /* Supporting Files */,
+				8514B4CD1A814C0B005F9715 /* colors.json */,
+			);
+			path = "Swift Color Game for Kids";
+			sourceTree = "<group>";
+		};
+		85B054231A7FF98600B60421 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				85B054451A801B0B00B60421 /* thumbs_down.png */,
+				85B054461A801B0B00B60421 /* thumbs_up.png */,
+				85B054241A7FF98600B60421 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		85B054381A7FF98600B60421 /* Swift Color Game for KidsTests */ = {
+			isa = PBXGroup;
+			children = (
+				85B0543B1A7FF98700B60421 /* Swift_Color_Game_for_KidsTests.swift */,
+				85B054391A7FF98700B60421 /* Supporting Files */,
+			);
+			path = "Swift Color Game for KidsTests";
+			sourceTree = "<group>";
+		};
+		85B054391A7FF98700B60421 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				85B0543A1A7FF98700B60421 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		85B0541F1A7FF98600B60421 /* Swift Color Game for Kids */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 85B0543F1A7FF98700B60421 /* Build configuration list for PBXNativeTarget "Swift Color Game for Kids" */;
+			buildPhases = (
+				85B0541C1A7FF98600B60421 /* Sources */,
+				85B0541D1A7FF98600B60421 /* Frameworks */,
+				85B0541E1A7FF98600B60421 /* Resources */,
+				8514B5351A817F70005F9715 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Swift Color Game for Kids";
+			productName = "Swift Color Game for Kids";
+			productReference = 85B054201A7FF98600B60421 /* Swift Color Game for Kids.app */;
+			productType = "com.apple.product-type.application";
+		};
+		85B054341A7FF98600B60421 /* Swift Color Game for KidsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 85B054421A7FF98700B60421 /* Build configuration list for PBXNativeTarget "Swift Color Game for KidsTests" */;
+			buildPhases = (
+				85B054311A7FF98600B60421 /* Sources */,
+				85B054321A7FF98600B60421 /* Frameworks */,
+				85B054331A7FF98600B60421 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				85B054371A7FF98600B60421 /* PBXTargetDependency */,
+			);
+			name = "Swift Color Game for KidsTests";
+			productName = "Swift Color Game for KidsTests";
+			productReference = 85B054351A7FF98600B60421 /* Swift Color Game for KidsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		85B054181A7FF98600B60421 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = mwsu;
+				TargetAttributes = {
+					85B0541F1A7FF98600B60421 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					85B054341A7FF98600B60421 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 85B0541F1A7FF98600B60421;
+					};
+				};
+			};
+			buildConfigurationList = 85B0541B1A7FF98600B60421 /* Build configuration list for PBXProject "Swift Color Game for Kids" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 85B054171A7FF98600B60421;
+			productRefGroup = 85B054211A7FF98600B60421 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				85B0541F1A7FF98600B60421 /* Swift Color Game for Kids */,
+				85B054341A7FF98600B60421 /* Swift Color Game for KidsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		85B0541E1A7FF98600B60421 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85B054471A801B0B00B60421 /* thumbs_down.png in Resources */,
+				85B0542B1A7FF98600B60421 /* Main.storyboard in Resources */,
+				85B054301A7FF98600B60421 /* LaunchScreen.xib in Resources */,
+				8514B4CE1A814C0B005F9715 /* colors.json in Resources */,
+				85B054481A801B0B00B60421 /* thumbs_up.png in Resources */,
+				85B0542D1A7FF98600B60421 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85B054331A7FF98600B60421 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		85B0541C1A7FF98600B60421 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8514B53D1A818147005F9715 /* SwiftyJSON.swift in Sources */,
+				8514B5FE1A82F507005F9715 /* Alamofire.swift in Sources */,
+				85B054281A7FF98600B60421 /* ViewController.swift in Sources */,
+				85B054261A7FF98600B60421 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85B054311A7FF98600B60421 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85B0543C1A7FF98700B60421 /* Swift_Color_Game_for_KidsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		85B054371A7FF98600B60421 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 85B0541F1A7FF98600B60421 /* Swift Color Game for Kids */;
+			targetProxy = 85B054361A7FF98600B60421 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		85B054291A7FF98600B60421 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				85B0542A1A7FF98600B60421 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		85B0542E1A7FF98600B60421 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				85B0542F1A7FF98600B60421 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		85B0543D1A7FF98700B60421 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		85B0543E1A7FF98700B60421 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		85B054401A7FF98700B60421 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				INFOPLIST_FILE = "Swift Color Game for Kids/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		85B054411A7FF98700B60421 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				INFOPLIST_FILE = "Swift Color Game for Kids/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		85B054431A7FF98700B60421 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Swift Color Game for KidsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Swift Color Game for Kids.app/Swift Color Game for Kids";
+			};
+			name = Debug;
+		};
+		85B054441A7FF98700B60421 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Swift Color Game for KidsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Swift Color Game for Kids.app/Swift Color Game for Kids";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		85B0541B1A7FF98600B60421 /* Build configuration list for PBXProject "Swift Color Game for Kids" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85B0543D1A7FF98700B60421 /* Debug */,
+				85B0543E1A7FF98700B60421 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		85B0543F1A7FF98700B60421 /* Build configuration list for PBXNativeTarget "Swift Color Game for Kids" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85B054401A7FF98700B60421 /* Debug */,
+				85B054411A7FF98700B60421 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		85B054421A7FF98700B60421 /* Build configuration list for PBXNativeTarget "Swift Color Game for KidsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85B054431A7FF98700B60421 /* Debug */,
+				85B054441A7FF98700B60421 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 85B054181A7FF98600B60421 /* Project object */;
+}

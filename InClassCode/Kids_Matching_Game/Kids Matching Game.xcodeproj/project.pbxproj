@@ -1,0 +1,489 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		85322ED91A7AFBFC008FF248 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85322ED81A7AFBFC008FF248 /* AppDelegate.swift */; };
+		85322EDB1A7AFBFC008FF248 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85322EDA1A7AFBFC008FF248 /* ViewController.swift */; };
+		85322EDE1A7AFBFC008FF248 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85322EDC1A7AFBFC008FF248 /* Main.storyboard */; };
+		85322EE01A7AFBFD008FF248 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85322EDF1A7AFBFD008FF248 /* Images.xcassets */; };
+		85322EE31A7AFBFD008FF248 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85322EE11A7AFBFD008FF248 /* LaunchScreen.xib */; };
+		85322EEF1A7AFBFD008FF248 /* Kids_Matching_GameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85322EEE1A7AFBFD008FF248 /* Kids_Matching_GameTests.swift */; };
+		85322F081A7B009E008FF248 /* bee.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 85322EF81A7B009E008FF248 /* bee.jpg */; };
+		85322F091A7B009E008FF248 /* cat.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 85322EF91A7B009E008FF248 /* cat.jpg */; };
+		85322F0A1A7B009E008FF248 /* cow.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 85322EFA1A7B009E008FF248 /* cow.jpg */; };
+		85322F0B1A7B009E008FF248 /* dog.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 85322EFB1A7B009E008FF248 /* dog.jpg */; };
+		85322F0C1A7B009E008FF248 /* elk.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 85322EFC1A7B009E008FF248 /* elk.jpg */; };
+		85322F0D1A7B009E008FF248 /* frog.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 85322EFD1A7B009E008FF248 /* frog.jpg */; };
+		85322F0E1A7B009E008FF248 /* gorilla.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 85322EFE1A7B009E008FF248 /* gorilla.jpg */; };
+		85322F0F1A7B009E008FF248 /* guinea_pig.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 85322EFF1A7B009E008FF248 /* guinea_pig.jpg */; };
+		85322F101A7B009E008FF248 /* hippo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 85322F001A7B009E008FF248 /* hippo.jpg */; };
+		85322F111A7B009E008FF248 /* monkey.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 85322F011A7B009E008FF248 /* monkey.jpg */; };
+		85322F121A7B009E008FF248 /* owl.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 85322F021A7B009E008FF248 /* owl.jpg */; };
+		85322F131A7B009E008FF248 /* panda.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 85322F031A7B009E008FF248 /* panda.jpg */; };
+		85322F141A7B009E008FF248 /* penguin.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 85322F041A7B009E008FF248 /* penguin.jpg */; };
+		85322F151A7B009E008FF248 /* pig.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 85322F051A7B009E008FF248 /* pig.jpg */; };
+		85322F161A7B009E008FF248 /* shark.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 85322F061A7B009E008FF248 /* shark.jpg */; };
+		85322F171A7B009E008FF248 /* tiger.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 85322F071A7B009E008FF248 /* tiger.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		85322EE91A7AFBFD008FF248 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 85322ECB1A7AFBFC008FF248 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 85322ED21A7AFBFC008FF248;
+			remoteInfo = "Kids Matching Game";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		85322ED31A7AFBFC008FF248 /* Kids Matching Game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Kids Matching Game.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		85322ED71A7AFBFC008FF248 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		85322ED81A7AFBFC008FF248 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		85322EDA1A7AFBFC008FF248 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		85322EDD1A7AFBFC008FF248 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		85322EDF1A7AFBFD008FF248 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		85322EE21A7AFBFD008FF248 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		85322EE81A7AFBFD008FF248 /* Kids Matching GameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Kids Matching GameTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		85322EED1A7AFBFD008FF248 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		85322EEE1A7AFBFD008FF248 /* Kids_Matching_GameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kids_Matching_GameTests.swift; sourceTree = "<group>"; };
+		85322EF81A7B009E008FF248 /* bee.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = bee.jpg; path = ../../FunnyAnimals/bee.jpg; sourceTree = "<group>"; };
+		85322EF91A7B009E008FF248 /* cat.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = cat.jpg; path = ../../FunnyAnimals/cat.jpg; sourceTree = "<group>"; };
+		85322EFA1A7B009E008FF248 /* cow.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = cow.jpg; path = ../../FunnyAnimals/cow.jpg; sourceTree = "<group>"; };
+		85322EFB1A7B009E008FF248 /* dog.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = dog.jpg; path = ../../FunnyAnimals/dog.jpg; sourceTree = "<group>"; };
+		85322EFC1A7B009E008FF248 /* elk.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = elk.jpg; path = ../../FunnyAnimals/elk.jpg; sourceTree = "<group>"; };
+		85322EFD1A7B009E008FF248 /* frog.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = frog.jpg; path = ../../FunnyAnimals/frog.jpg; sourceTree = "<group>"; };
+		85322EFE1A7B009E008FF248 /* gorilla.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = gorilla.jpg; path = ../../FunnyAnimals/gorilla.jpg; sourceTree = "<group>"; };
+		85322EFF1A7B009E008FF248 /* guinea_pig.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = guinea_pig.jpg; path = ../../FunnyAnimals/guinea_pig.jpg; sourceTree = "<group>"; };
+		85322F001A7B009E008FF248 /* hippo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = hippo.jpg; path = ../../FunnyAnimals/hippo.jpg; sourceTree = "<group>"; };
+		85322F011A7B009E008FF248 /* monkey.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = monkey.jpg; path = ../../FunnyAnimals/monkey.jpg; sourceTree = "<group>"; };
+		85322F021A7B009E008FF248 /* owl.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = owl.jpg; path = ../../FunnyAnimals/owl.jpg; sourceTree = "<group>"; };
+		85322F031A7B009E008FF248 /* panda.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = panda.jpg; path = ../../FunnyAnimals/panda.jpg; sourceTree = "<group>"; };
+		85322F041A7B009E008FF248 /* penguin.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = penguin.jpg; path = ../../FunnyAnimals/penguin.jpg; sourceTree = "<group>"; };
+		85322F051A7B009E008FF248 /* pig.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = pig.jpg; path = ../../FunnyAnimals/pig.jpg; sourceTree = "<group>"; };
+		85322F061A7B009E008FF248 /* shark.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = shark.jpg; path = ../../FunnyAnimals/shark.jpg; sourceTree = "<group>"; };
+		85322F071A7B009E008FF248 /* tiger.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = tiger.jpg; path = ../../FunnyAnimals/tiger.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		85322ED01A7AFBFC008FF248 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85322EE51A7AFBFD008FF248 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		85322ECA1A7AFBFC008FF248 = {
+			isa = PBXGroup;
+			children = (
+				85322ED51A7AFBFC008FF248 /* Kids Matching Game */,
+				85322EEB1A7AFBFD008FF248 /* Kids Matching GameTests */,
+				85322ED41A7AFBFC008FF248 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		85322ED41A7AFBFC008FF248 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				85322ED31A7AFBFC008FF248 /* Kids Matching Game.app */,
+				85322EE81A7AFBFD008FF248 /* Kids Matching GameTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		85322ED51A7AFBFC008FF248 /* Kids Matching Game */ = {
+			isa = PBXGroup;
+			children = (
+				85322ED81A7AFBFC008FF248 /* AppDelegate.swift */,
+				85322EDA1A7AFBFC008FF248 /* ViewController.swift */,
+				85322EDC1A7AFBFC008FF248 /* Main.storyboard */,
+				85322EDF1A7AFBFD008FF248 /* Images.xcassets */,
+				85322EE11A7AFBFD008FF248 /* LaunchScreen.xib */,
+				85322ED61A7AFBFC008FF248 /* Supporting Files */,
+			);
+			path = "Kids Matching Game";
+			sourceTree = "<group>";
+		};
+		85322ED61A7AFBFC008FF248 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				85322EF81A7B009E008FF248 /* bee.jpg */,
+				85322EF91A7B009E008FF248 /* cat.jpg */,
+				85322EFA1A7B009E008FF248 /* cow.jpg */,
+				85322EFB1A7B009E008FF248 /* dog.jpg */,
+				85322EFC1A7B009E008FF248 /* elk.jpg */,
+				85322EFD1A7B009E008FF248 /* frog.jpg */,
+				85322EFE1A7B009E008FF248 /* gorilla.jpg */,
+				85322EFF1A7B009E008FF248 /* guinea_pig.jpg */,
+				85322F001A7B009E008FF248 /* hippo.jpg */,
+				85322F011A7B009E008FF248 /* monkey.jpg */,
+				85322F021A7B009E008FF248 /* owl.jpg */,
+				85322F031A7B009E008FF248 /* panda.jpg */,
+				85322F041A7B009E008FF248 /* penguin.jpg */,
+				85322F051A7B009E008FF248 /* pig.jpg */,
+				85322F061A7B009E008FF248 /* shark.jpg */,
+				85322F071A7B009E008FF248 /* tiger.jpg */,
+				85322ED71A7AFBFC008FF248 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		85322EEB1A7AFBFD008FF248 /* Kids Matching GameTests */ = {
+			isa = PBXGroup;
+			children = (
+				85322EEE1A7AFBFD008FF248 /* Kids_Matching_GameTests.swift */,
+				85322EEC1A7AFBFD008FF248 /* Supporting Files */,
+			);
+			path = "Kids Matching GameTests";
+			sourceTree = "<group>";
+		};
+		85322EEC1A7AFBFD008FF248 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				85322EED1A7AFBFD008FF248 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		85322ED21A7AFBFC008FF248 /* Kids Matching Game */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 85322EF21A7AFBFD008FF248 /* Build configuration list for PBXNativeTarget "Kids Matching Game" */;
+			buildPhases = (
+				85322ECF1A7AFBFC008FF248 /* Sources */,
+				85322ED01A7AFBFC008FF248 /* Frameworks */,
+				85322ED11A7AFBFC008FF248 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Kids Matching Game";
+			productName = "Kids Matching Game";
+			productReference = 85322ED31A7AFBFC008FF248 /* Kids Matching Game.app */;
+			productType = "com.apple.product-type.application";
+		};
+		85322EE71A7AFBFD008FF248 /* Kids Matching GameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 85322EF51A7AFBFD008FF248 /* Build configuration list for PBXNativeTarget "Kids Matching GameTests" */;
+			buildPhases = (
+				85322EE41A7AFBFD008FF248 /* Sources */,
+				85322EE51A7AFBFD008FF248 /* Frameworks */,
+				85322EE61A7AFBFD008FF248 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				85322EEA1A7AFBFD008FF248 /* PBXTargetDependency */,
+			);
+			name = "Kids Matching GameTests";
+			productName = "Kids Matching GameTests";
+			productReference = 85322EE81A7AFBFD008FF248 /* Kids Matching GameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		85322ECB1A7AFBFC008FF248 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Terry Griffin";
+				TargetAttributes = {
+					85322ED21A7AFBFC008FF248 = {
+						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = 5759AXAR43;
+					};
+					85322EE71A7AFBFD008FF248 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 85322ED21A7AFBFC008FF248;
+					};
+				};
+			};
+			buildConfigurationList = 85322ECE1A7AFBFC008FF248 /* Build configuration list for PBXProject "Kids Matching Game" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 85322ECA1A7AFBFC008FF248;
+			productRefGroup = 85322ED41A7AFBFC008FF248 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				85322ED21A7AFBFC008FF248 /* Kids Matching Game */,
+				85322EE71A7AFBFD008FF248 /* Kids Matching GameTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		85322ED11A7AFBFC008FF248 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85322F141A7B009E008FF248 /* penguin.jpg in Resources */,
+				85322F161A7B009E008FF248 /* shark.jpg in Resources */,
+				85322F0B1A7B009E008FF248 /* dog.jpg in Resources */,
+				85322F171A7B009E008FF248 /* tiger.jpg in Resources */,
+				85322F091A7B009E008FF248 /* cat.jpg in Resources */,
+				85322F121A7B009E008FF248 /* owl.jpg in Resources */,
+				85322F0C1A7B009E008FF248 /* elk.jpg in Resources */,
+				85322EDE1A7AFBFC008FF248 /* Main.storyboard in Resources */,
+				85322F131A7B009E008FF248 /* panda.jpg in Resources */,
+				85322F101A7B009E008FF248 /* hippo.jpg in Resources */,
+				85322F0D1A7B009E008FF248 /* frog.jpg in Resources */,
+				85322EE31A7AFBFD008FF248 /* LaunchScreen.xib in Resources */,
+				85322F0A1A7B009E008FF248 /* cow.jpg in Resources */,
+				85322F081A7B009E008FF248 /* bee.jpg in Resources */,
+				85322F151A7B009E008FF248 /* pig.jpg in Resources */,
+				85322F0F1A7B009E008FF248 /* guinea_pig.jpg in Resources */,
+				85322F0E1A7B009E008FF248 /* gorilla.jpg in Resources */,
+				85322F111A7B009E008FF248 /* monkey.jpg in Resources */,
+				85322EE01A7AFBFD008FF248 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85322EE61A7AFBFD008FF248 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		85322ECF1A7AFBFC008FF248 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85322EDB1A7AFBFC008FF248 /* ViewController.swift in Sources */,
+				85322ED91A7AFBFC008FF248 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85322EE41A7AFBFD008FF248 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85322EEF1A7AFBFD008FF248 /* Kids_Matching_GameTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		85322EEA1A7AFBFD008FF248 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 85322ED21A7AFBFC008FF248 /* Kids Matching Game */;
+			targetProxy = 85322EE91A7AFBFD008FF248 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		85322EDC1A7AFBFC008FF248 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				85322EDD1A7AFBFC008FF248 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		85322EE11A7AFBFD008FF248 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				85322EE21A7AFBFD008FF248 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		85322EF01A7AFBFD008FF248 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		85322EF11A7AFBFD008FF248 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		85322EF31A7AFBFD008FF248 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Kids Matching Game/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		85322EF41A7AFBFD008FF248 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Kids Matching Game/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		85322EF61A7AFBFD008FF248 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Kids Matching GameTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kids Matching Game.app/Kids Matching Game";
+			};
+			name = Debug;
+		};
+		85322EF71A7AFBFD008FF248 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Kids Matching GameTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kids Matching Game.app/Kids Matching Game";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		85322ECE1A7AFBFC008FF248 /* Build configuration list for PBXProject "Kids Matching Game" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85322EF01A7AFBFD008FF248 /* Debug */,
+				85322EF11A7AFBFD008FF248 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		85322EF21A7AFBFD008FF248 /* Build configuration list for PBXNativeTarget "Kids Matching Game" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85322EF31A7AFBFD008FF248 /* Debug */,
+				85322EF41A7AFBFD008FF248 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		85322EF51A7AFBFD008FF248 /* Build configuration list for PBXNativeTarget "Kids Matching GameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85322EF61A7AFBFD008FF248 /* Debug */,
+				85322EF71A7AFBFD008FF248 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 85322ECB1A7AFBFC008FF248 /* Project object */;
+}

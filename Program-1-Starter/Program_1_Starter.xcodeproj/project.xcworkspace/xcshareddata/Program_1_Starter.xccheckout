@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>495EA80F-CE7B-4DCF-8923-60DC55AE8AF8</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Program_1_Starter</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>1209B2A30B1DA1FF94CCA92428D258D39D448F96</key>
+		<string>github.com:rugbyprof/5373-Swift-Programming.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Program-1-Starter/Program_1_Starter.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>1209B2A30B1DA1FF94CCA92428D258D39D448F96</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:rugbyprof/5373-Swift-Programming.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>1209B2A30B1DA1FF94CCA92428D258D39D448F96</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>1209B2A30B1DA1FF94CCA92428D258D39D448F96</string>
+			<key>IDESourceControlWCCName</key>
+			<string>5373-Swift-Programming</string>
+		</dict>
+	</array>
+</dict>
+</plist>

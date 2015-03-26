@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>01147BF9-E830-40EB-9944-C43D3C5DABEF</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Swift Color Game for Kids</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>67620B5EFA902936DF04070AF595B76AB0333747</key>
+		<string>github.com:Alamofire/Alamofire.git</string>
+		<key>D62627DC536EF8A987A6CAF3853B6F446B9F8D5F</key>
+		<string>github.com:rugbyprof/4443-and-5373-Swift-Programming.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>InClassCode/Color_Game_for_Kids/Swift Color Game for Kids.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>67620B5EFA902936DF04070AF595B76AB0333747</key>
+		<string>../../../..InClassCode/Color_Game_for_Kids/Swift%20Color%20Game%20for%20Kids/Alamofire</string>
+		<key>D62627DC536EF8A987A6CAF3853B6F446B9F8D5F</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:rugbyprof/4443-and-5373-Swift-Programming.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>D62627DC536EF8A987A6CAF3853B6F446B9F8D5F</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>D62627DC536EF8A987A6CAF3853B6F446B9F8D5F</string>
+			<key>IDESourceControlWCCName</key>
+			<string>4443-and-5373-Swift-Programming</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>67620B5EFA902936DF04070AF595B76AB0333747</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Alamofire</string>
+		</dict>
+	</array>
+</dict>
+</plist>
