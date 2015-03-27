@@ -97,7 +97,11 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+<<<<<<< HEAD
                             <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" id="24G-u6-Cvk">
+=======
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" id="kAT-Fr-iuV">
+>>>>>>> ec625be31fbfd996bfe91348d8eb544c8dd80789
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </mapView>
@@ -107,7 +111,11 @@
                     <tabBarItem key="tabBarItem" title="Second" image="second" id="cPa-gy-q4n"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <connections>
+<<<<<<< HEAD
                         <outlet property="mapView" destination="24G-u6-Cvk" id="AhC-BE-axl"/>
+=======
+                        <outlet property="mapView" destination="kAT-Fr-iuV" id="6rJ-nK-SJt"/>
+>>>>>>> ec625be31fbfd996bfe91348d8eb544c8dd80789
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4Nw-L8-lE0" sceneMemberID="firstResponder"/>
