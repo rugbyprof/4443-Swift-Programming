@@ -10,3 +10,6 @@
         - Casts
         - The AnyObject type
         
+- Passing data 
+    - Prepare for Segue
+    - Protocol and Delegate
