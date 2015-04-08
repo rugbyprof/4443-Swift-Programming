@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="6751" systemVersion="14C1514" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Comments" syncable="YES">
+        <attribute name="comment" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="restID" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="stars" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+    </entity>
+    <entity name="Restaurants" syncable="YES">
+        <attribute name="address" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="country" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lat" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="lng" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="restaurant" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="restID" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="state" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="subLocality" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="telephone" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="website" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="zip" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Restaurants" positionX="-45" positionY="0" width="128" height="208"/>
+        <element name="Comments" positionX="-18" positionY="108" width="128" height="88"/>
+    </elements>
+</model>
