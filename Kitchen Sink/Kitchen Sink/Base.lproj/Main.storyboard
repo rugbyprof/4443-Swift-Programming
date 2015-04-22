@@ -154,7 +154,7 @@
         <scene sceneID="G7V-hx-OHs">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="jVi-7W-1TQ" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Color Picker" image="drstuff" id="hV8-Iy-pu2"/>
+                    <tabBarItem key="tabBarItem" title="Color Picker" image="colorPicker" id="hV8-Iy-pu2"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="BfG-VS-uSd">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
@@ -172,8 +172,8 @@
     </scenes>
     <resources>
         <image name="accelerometer" width="30" height="30"/>
+        <image name="colorPicker" width="29" height="25"/>
         <image name="compass" width="30" height="30"/>
-        <image name="drstuff" width="30" height="30"/>
         <image name="gyroscope" width="30" height="30"/>
     </resources>
 </document>
