@@ -22,7 +22,7 @@
 | --- | ---   |
 | 1   | "Get My Current Location" starts the gps.| 
 | 2   | A location icon is placed on the map on the next view. |
-| 3   | The icon will change every time the map view is reloaded. |
+| 3   | The icon will change every time the map view is reloaded based on the lat/lon from the previous view. |
 
 ####  Single Page Application  - Table View
 
