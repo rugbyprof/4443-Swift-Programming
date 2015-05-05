@@ -16,6 +16,14 @@
 | 4   | One of the buttons has the correct choice.|
 | 5   | Bonus for an attempt to pick colors that are close together.|
 
+####  Locations assignment
+
+| #   | Item  |
+| --- | ---   |
+| 1   | "Get My Current Location" starts the gps.| 
+| 2   | A location icon is placed on the map on the next view. |
+| 3   | The icon will change every time the map view is reloaded. |
+
 ####  Single Page Application  - Table View
 
 | #   | Item  |
